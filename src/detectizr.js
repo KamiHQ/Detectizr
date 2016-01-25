@@ -524,4 +524,4 @@ window.Detectizr = (function(window, navigator, document, undefined) {
 	Detectizr.init();
 
 	return Detectizr;
-}(this, this.navigator, this.document));
+}(window, window.navigator, window.document));
